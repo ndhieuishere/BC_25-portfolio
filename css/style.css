@@ -436,23 +436,23 @@ header .navbar-toggler {
   header .navbar-collapse {
     background-color: #fff;
   }
-  #navbarPort .nav-item {
+  .menu li {
     margin: 0;
     padding: 0 10px;
   }
-  #navbarPort .nav-item:hover {
+  .menu li:hover {
     background-color: #35a22c;
   }
-  #navbarPort .nav-item .nav-link {
-    color: #35a22c;
+  .menu li a {
+    color: #35a22c !important;
   }
-  
-  #navbarPort .nav-item:hover .nav-link {
+
+  .menu li:hover .nav-link {
     color: #fff;
   }
 
-  #navbarPort .nav-item:hover::after,
-  #navbarPort .nav-item.active::after {
+  .menu li:hover::after,
+  .menu li.active::after {
     width: 0;
   }
 }
@@ -533,7 +533,7 @@ header .navbar-toggler {
 }
 /* responsive awards  */
 @media screen and (max-width: 575.98px) {
-  .awards-bg{
-    background-size:cover;  
+  .awards-bg {
+    background-size: cover;
   }
 }
